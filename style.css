@@ -9,7 +9,7 @@
 body {
   background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
   background-repeat: no-repeat;
-  background-position: -16rem -32rem, 44rem 17rem;
+  background-position: -11rem -40rem, 44rem 17rem;
   position: relative;
 }
 
