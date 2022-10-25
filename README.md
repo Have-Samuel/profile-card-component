@@ -48,7 +48,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Have-Samuel/profile-card-component/issues).
 
 ## Show your support
 
