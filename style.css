@@ -71,7 +71,6 @@ body {
   text-align: center;
   color: rgba(107, 112, 130, 1);
   margin: 0.5rem auto;
-  /* border-bottom: 2px solid #e8e9ec; */
 }
 
 hr {
@@ -84,34 +83,41 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
   gap: 2.4rem;
-  /* margin-bottom: 2.5rem; */
   height: 5rem;
-  /* width: 233px; */
 }
 
+/* .units_point {
+  gap: 5.4rem;
+} */
+
 .units_price {
-  height: 18px;
-  width: 35px;
+  display: flex;
+  justify-content: space-evenly;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0;
-  text-align: center;
   color: rgba(46, 51, 73, 1);
 }
 
+.meter {
+  margin-left: 0.3rem;
+}
+
+.meters {
+  margin-left: 0.4rem;
+}
+
 .units_price-title {
-  width: 56px;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 12px;
   letter-spacing: 1.5px;
   color: rgba(107, 112, 130, 1);
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
 }
 
 @media (min-width: 1200px) {
