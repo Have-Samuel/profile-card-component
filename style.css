@@ -10,7 +10,7 @@ body {
   background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
   background-repeat: no-repeat;
   background-position: -11rem -40rem, 44rem 17rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .content {
@@ -20,6 +20,8 @@ body {
   position: relative;
   background-color: #fff;
   margin: 9rem auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .upper-image {
