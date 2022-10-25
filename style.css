@@ -13,3 +13,29 @@ body {
   /* background-position: 10px 20px, top right; */
   background-position: -18rem -25rem, 50rem 22rem;
 }
+
+.content {
+  /* height: 374px; */
+  width: 326px;
+  /* border-radius: 15px; */
+  position: relative;
+}
+
+.upper-image {
+  background: url('./images/bg-pattern-card.svg')rgba(65, 203, 211, 1);
+  height: 140px;
+  border-radius: 8px 8px 0 0;
+}
+
+.human-image {
+  height: 96px;
+  width: 96px;
+  left: 115px;
+  top: 92px;
+  border-radius: 50%;
+  background: url('./images/image-victor.jpg'), rgba(255, 255, 255, 1);
+  border: 5px solid rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+.
