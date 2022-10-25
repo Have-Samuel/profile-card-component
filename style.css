@@ -121,7 +121,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
-  .content {
-
+  body {
+    background-position: -18rem -30rem, 44rem 17rem;
   }
 }
