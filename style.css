@@ -15,9 +15,10 @@ body {
 }
 
 .content {
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5048);
   /* height: 374px; */
   width: 326px;
-  /* border-radius: 15px; */
+  border-radius: 15px;
   position: relative;
 }
 
@@ -38,4 +39,23 @@ body {
   position: absolute;
 }
 
-.
+.content h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(46, 51, 73, 1);
+  text-align: center;
+  margin: 4rem auto 0 auto;
+}
+
+.content h1 span {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(107, 112, 130, 1);
+  margin-left: 0.53rem;
+}
