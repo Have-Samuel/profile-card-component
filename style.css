@@ -10,12 +10,13 @@ body {
   overflow: hidden;
   background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
   background-repeat: no-repeat;
-  background-position: -11rem -40rem, 42rem 20rem;
+  background-size: cover, cover;
+  background-position: -47rem -60rem, 40rem 13rem;
 }
 
 .content {
-  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.5048);
   width: 326px;
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.5048);
   border-radius: 15px;
   position: relative;
   background-color: #fff;
@@ -73,12 +74,11 @@ body {
   margin: 0.5rem auto;
 }
 
-.lining {
+hr {
   width: 326px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  /* color: rgba(232, 233, 236, 1); */
-  background-color: red;
+  border-color: #fff;
 }
 
 .units {
