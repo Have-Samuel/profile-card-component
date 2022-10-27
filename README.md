@@ -20,13 +20,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
   ## Mobile
-![](./screenshot.jpg)
+![](./images/profileCarfd.png)
  ## Desktop
- ![](./screenshot.jpg)
+ ![](./images/desktopProCard.png)
 
 ### Links
 
-- [Github]()
+- [Github](https://github.com/Have-Samuel/profile-card-component)
 - [Live Link]()
 
 ### Built with
