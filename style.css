@@ -7,9 +7,10 @@
 }
 
 body {
+  overflow: hidden;
   background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
   background-repeat: no-repeat;
-  background-position: -11rem -40rem, 44rem 17rem;
+  background-position: -11rem -40rem, 42rem 20rem;
 }
 
 .content {
@@ -18,9 +19,7 @@ body {
   border-radius: 15px;
   position: relative;
   background-color: #fff;
-  margin: 9rem auto;
-  display: flex;
-  flex-direction: column;
+  margin: 10rem auto;
 }
 
 .upper-image {
@@ -74,10 +73,12 @@ body {
   margin: 0.5rem auto;
 }
 
-hr {
+.lining {
   width: 326px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  /* color: rgba(232, 233, 236, 1); */
+  background-color: red;
 }
 
 .units {
@@ -121,8 +122,8 @@ hr {
   margin-top: 0.4rem;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   body {
     background-position: -18rem -30rem, 48rem 18rem;
   }
-}
+} */
