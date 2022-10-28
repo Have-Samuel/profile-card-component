@@ -1,2 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -27rem -29rem, 12rem 20rem;
+}
+
+.content {
+  width: 326px;
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.5048);
+  border-radius: 15px;
+  position: relative;
+  background-color: #fff;
+  margin: 10rem auto;
+}
+
+.upper-image {
+  background: url('./images/bg-pattern-card.svg'), rgba(65, 203, 211, 1);
+  height: 140px;
+  border-radius: 8px 8px 0 0;
+}
+
+.human-image {
+  height: 96px;
+  width: 96px;
+  left: 115px;
+  top: 92px;
+  border-radius: 50%;
+  background: url('./images/image-victor.jpg'), rgba(255, 255, 255, 1);
+  border: 5px solid rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+.content h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(46, 51, 73, 1);
+  text-align: center;
+  margin: 4rem auto 0 auto;
+}
+
+.content h1 span {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(107, 112, 130, 1);
+  margin-left: 0.53rem;
+}
+
+.content p {
+  height: 14px;
+  width: 50px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(107, 112, 130, 1);
+  margin: 0.5rem auto;
+}
+
+hr {
+  width: 326px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-color: #fff;
+}
+
+.units {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.4rem;
+  height: 5rem;
+}
+
+/* .units_point {
+  gap: 5.4rem;
+} */
+
+.units_price {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(46, 51, 73, 1);
+}
+
+.meter {
+  margin-left: 0.3rem;
+}
+
+.meters {
+  margin-left: 0.4rem;
+}
+
+.units_price-title {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  color: rgba(107, 112, 130, 1);
+  margin-top: 0.4rem;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -36rem -59rem, 40rem 15rem;
+  }
+}
