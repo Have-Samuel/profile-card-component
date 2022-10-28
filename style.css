@@ -127,6 +127,6 @@ hr {
     background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -36rem -59rem, 40rem 17rem;
+    background-position: -36rem -59rem, 40rem 15rem;
   }
 }
