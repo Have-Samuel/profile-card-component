@@ -10,8 +10,8 @@ body {
   overflow: hidden;
   background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
   background-repeat: no-repeat;
-  background-size: cover, cover;
-  background-position: -47rem -60rem, 40rem 13rem;
+  background-size: cover;
+  background-position: -27rem -29rem, 12rem 20rem;
 }
 
 .content {
@@ -122,8 +122,10 @@ hr {
   margin-top: 0.4rem;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   body {
+    background: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg'), rgba(25, 161, 174, 1);
+    background-repeat: no-repeat;
     background-position: -18rem -30rem, 48rem 18rem;
   }
-} */
+}
