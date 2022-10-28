@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - [Github](https://github.com/Have-Samuel/profile-card-component)
-- [Live Link]()
+- [Live Link](https://chic-profile-card.netlify.app/)
 
 ### Built with
 
